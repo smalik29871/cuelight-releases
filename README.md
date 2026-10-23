@@ -11,10 +11,10 @@ Continue Watching.
 1. Install the [Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel) on your TV.
 2. In the Homebrew Channel, open **Settings > Add repository** and enter:
 
-   `https://github.com/smalik29871/stremio-custom-lg-tv-releases/releases/latest/download/repo.json`
+   `https://github.com/smalik29871/cuelight-releases/releases/latest/download/repo.json`
 3. Back in the app list, install **Cuelight** (listed as "Stremio (native)" before 0.10.57).
 
 ## Updates
 
-Cuelight checks for new versions itself (Settings > About). The newest is **v0.10.57**: see
-[Releases](https://github.com/smalik29871/stremio-custom-lg-tv-releases/releases) for what changed.
+Cuelight checks for new versions itself (Settings > About). The newest is **v0.10.58**: see
+[Releases](https://github.com/smalik29871/cuelight-releases/releases) for what changed.
