@@ -16,5 +16,5 @@ Continue Watching.
 
 ## Updates
 
-Cuelight checks for new versions itself (Settings > About). The newest is **v0.10.62**: see
+Cuelight checks for new versions itself (Settings > About). The newest is **v0.10.63**: see
 [Releases](https://github.com/smalik29871/cuelight-releases/releases) for what changed.
