@@ -11,7 +11,7 @@ and Fire TV (Android 7 and newer), and as a preview on Windows 10 and 11.
 > Cuelight is an independent project. It is not affiliated with, endorsed by or made by
 > Stremio, LG, Google or YouTube. It plays only what your own addons and accounts provide.
 
-This repository holds the builds. The newest is **v0.10.81**: see
+This repository holds the builds. The newest is **v0.10.82**: see
 [Releases](https://github.com/smalik29871/cuelight-releases/releases) for what changed.
 
 ## Install on an LG TV
@@ -54,8 +54,8 @@ your own devices for personal, non-commercial use; redistributing them, or modif
 versions, needs written permission. The full terms are in [LICENSE](LICENSE).
 
 The builds include open-source components under their own licences, among them FFmpeg's
-H.264 and HEVC decoders (LGPL 2.1, linked statically: the source repository has everything
-needed to rebuild Cuelight against a changed FFmpeg), QuickJS-ng, cJSON, libwebp, the
+decoders (LGPL 2.1: unmodified shared libraries you may replace with your own build; its
+source and how it was built are in the `ffmpeg` folder of each app), QuickJS-ng, cJSON, libwebp, the
 P2P engine's Go modules (MPL 2.0 and others), the fonts (SIL OFL 1.1), and on Android
 SDL2, curl, Mbed TLS, AndroidX Media3 and android-youtube-player, and on Windows SDL2, dav1d (BSD 2-clause),
 ANGLE, curl and zlib. This product uses the
