@@ -11,9 +11,8 @@ and Fire TV (Android 7 and newer), and as a preview on Windows 10 and 11.
 > Cuelight is an independent project. It is not affiliated with, endorsed by or made by
 > Stremio, LG, Google or YouTube. It plays only what your own addons and accounts provide.
 
-This repository holds the builds. The newest is **v0.10.80**: see
-[Releases](https://github.com/smalik29871/cuelight-releases/releases) for what changed. The source is at
-[smalik29871/stremio-native-tv](https://github.com/smalik29871/stremio-native-tv).
+This repository holds the builds. The newest is **v0.10.81**: see
+[Releases](https://github.com/smalik29871/cuelight-releases/releases) for what changed.
 
 ## Install on an LG TV
 
