@@ -127,6 +127,14 @@ video:
 - **Auto-sync**: pick any other file and its cue timings are compared with a matched one;
   the offset is applied by itself ("Subtitles synced to the file, +1.3 s"). Manual
   timing in 0.1 s steps sits at the top of the Subtitles menu.
+- **Synced to the film itself** when no file was matched: to the film's own text track
+  while it plays, or (on a PC) to the speech in its sound. A fix that does not really
+  line the subtitles up is not applied. **Sync to this line**: OK on Subtitle timing shows
+  the next line; press OK when it is spoken. A timing one device found is used at once by
+  the next viewer of the same file and subtitles (only the times are shared).
+- **The film's own subtitles first**: when the TV lists them a few seconds after the
+  sound, Cuelight waits for them rather than settling on an addon's file, and on an LG it
+  draws lines the TV would show with their font tags as text.
 - **Translate** (with the AI assistant, below) when nobody offers your language: the
   English file is translated in batches around the playhead, so it starts in seconds and
   keeps going as you watch.
@@ -168,6 +176,14 @@ plays offline, shown full screen if it is a video), and playback continues where
 - **Saved sign-ins** you can switch between, and a **parental PIN** that can guard
   Settings and adult addons.
 - **Sign in by QR** or short code via link.stremio.com; e-mail and password as fallback.
+- **Mute bad language** (Settings > Parental): the sound goes quiet for each swear word
+  found in the English subtitles, shown or not, and the word is starred out on screen.
+- **Scene filter**: scenes from CleanStream's lists are skipped, or offered with a *Skip
+  scene* button; lists timed on another release are lined up with your copy by the words
+  both have. Any scene can be marked from Scenes (start, end, what is in it), and shared
+  with CleanStream only if you choose. **Spot nudity** (experimental, off by default): a
+  small model on the device looks at the frames a little ahead and offers *Skip scene?*;
+  the pictures never leave the device.
 
 ### Built for old TVs
 - Idle frame skipping, a batched GLES2 renderer (one draw call for most screens), disk

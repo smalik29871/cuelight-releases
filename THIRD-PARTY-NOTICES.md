@@ -18,6 +18,7 @@ repository, linked here.
 | [libwebp](https://chromium.googlesource.com/webm/libwebp) (decoder) | 1.4.0 | BSD-3-Clause | WebP artwork | `vendor/libwebp/COPYING` |
 | [yt-dlp/ejs](https://github.com/yt-dlp/ejs), with [meriyah](https://github.com/meriyah/meriyah) and [astring](https://github.com/davidbonnet/astring) | 0.8.0 | Unlicense; meriyah ISC; astring MIT | YouTube signature solver (`assets/yt`) | `assets/yt/LICENSE` and the file headers |
 | [anacrolix/torrent](https://github.com/anacrolix/torrent) and its Go modules | pinned in `tools/torrentd/go.sum` | MPL 2.0, MIT, BSD, Apache 2.0 (per module) | The P2P engine `torrentd` (webOS, Android) | each module's repository, at the pinned version |
+| [NSFWJS](https://github.com/infinitered/nsfwjs) MobileNetV2 model (Infinite Red) | 4.x, `models/mobilenet_v2` | MIT | Spot nudity the lists miss: its weights, unchanged but for their order (`assets/models/nsfw_mobilenet_v2.bin`, made by `tools/nsfw_model.py`); run by Cuelight's own code (`src/nsfw.c`) | `assets/models/NSFWJS-LICENSE.txt` |
 | [Inter](https://rsms.me/inter/), [Space Grotesk](https://github.com/floriankarsten/space-grotesk), [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Open Sans](https://github.com/googlefonts/opensans), [Bebas Neue](https://github.com/dharmatype/Bebas-Neue), [DM Serif Display](https://github.com/googlefonts/dm-fonts) | | SIL Open Font License 1.1 | Type in the themes | `assets/fonts/*-LICENSE.txt` |
 
 ### Android app only
@@ -68,6 +69,7 @@ use, and what they return stays under their terms:
 | Stremio (api.strem.io, link.stremio.com, Cinemeta, OpenSubtitles addon) | Optional account sync, sign-in by link, metadata | Stremio's terms; Cuelight is not affiliated with Stremio |
 | Trakt, SimKL, MDBList, OpenSubtitles, TorBox | Optional accounts you sign in to | Each service's terms |
 | TheIntroDB, AniSkip, Kitsu | Skip intro and credits markers | Each service's terms |
+| [CleanStream](https://github.com/ameen-roayan/stremio-cleanstream) (the public server, or one you set) | The scene filter's lists (many from VideoSkip's contributors); a scene you mark is sent to it only when you choose to share it | Its terms; Cuelight ships none of its data |
 | IMDb (public pages and graph API) | Ratings, parents' guide, trailers | IMDb's terms |
 | iTunes Search API | A title's soundtrack | Apple's terms |
 | YouTube | Trailers, break recordings | YouTube's terms |
