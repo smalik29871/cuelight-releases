@@ -176,6 +176,11 @@ plays offline, shown full screen if it is a video), and playback continues where
 - **Saved sign-ins** you can switch between, and a **parental PIN** that can guard
   Settings and adult addons.
 - **Sign in by QR** or short code via link.stremio.com; e-mail and password as fallback.
+- **Stremio sync that keeps up**: progress, Continue Watching and watched episodes go both
+  ways with the Stremio apps, in Stremio's own format (nothing Stremio keeps for a title is
+  lost). The account is asked what changed every 2 minutes, after playing and back on
+  screen, and only those titles come over; a change the account did not take is sent again.
+  Each profile's watched episodes are its own.
 - **Mute bad language** (Settings > Parental): the sound goes quiet for each swear word
   found in the English subtitles, shown or not, and the word is starred out on screen.
 - **Scene filter**: scenes from CleanStream's lists are skipped, or offered with a *Skip
