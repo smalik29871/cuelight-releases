@@ -100,6 +100,11 @@ On a phone:
   turn on only when the audio is in another language; forced subtitles in the audio's
   language are picked from the file header.
 - **Stats for nerds** (Red): codec, resolution, fps, bitrate, buffer, stalls, file hash.
+- **Living letterbox** (experimental, Settings > Playback): a film wider or narrower than
+  the screen lights its black bars with its own colours. **Soft light**, the lightest for a
+  TV, takes the colours at the picture's edges from a small frame every few seconds (or
+  the colours other viewers' devices shared, with no frame at all) and fades them in
+  slowly; **Glow** and **One colour** follow every cut.
 - **Screensaver** with drifting backdrops and a clock after a quiet spell, OLED-safe. The
   fireplace style plays your own fireplace video, or a free one under an open licence
   (streamed, never kept), or draws its own fire when offline.
