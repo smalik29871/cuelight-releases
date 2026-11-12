@@ -11,7 +11,7 @@ and Fire TV (Android 7 and newer), and as a preview on Windows 10 and 11.
 > Cuelight is an independent project. It is not affiliated with, endorsed by or made by
 > Stremio, LG, Google or YouTube. It plays only what your own addons and accounts provide.
 
-This repository holds the builds. The newest is **v0.10.130**: see
+This repository holds the builds. The newest is **v0.10.131**: see
 [Releases](https://github.com/smalik29871/cuelight-releases/releases) for what changed in each version.
 
 **Contents:** [A look](#a-look) · [What it does](#what-it-does) · [Settings](#settings-at-a-glance) ·
